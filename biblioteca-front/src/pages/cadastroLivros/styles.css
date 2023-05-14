@@ -1,0 +1,48 @@
+.cadastroLivros {
+    background-color: #4ebba9;
+    position: relative;
+    text-align: center;
+}
+
+.formulario form h1 {
+    width: 806px;
+    height: 43px;
+    left: 255px;
+    top: 669px;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    display: flex;
+    color: #212121;
+}
+
+.formulario form h5 {
+    width: 109px;
+    height: 22px;
+    left: 255px;
+    top: 756px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+.formulario div {
+    padding-top: 25px;
+}
+
+.formulario form button {
+    margin-top: 0px;
+}
+
+.formulario form .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 540px;
+}

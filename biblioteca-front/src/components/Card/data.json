@@ -1,0 +1,23 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "titulo": "Senhor dos Aneis: A sociedade do anel",
+        "autor": "J. R. R. Tolkien",
+        "ano": 1954
+      },
+      {
+        "id": 2,
+        "titulo": "Senhor dos Aneis: As duas torres",
+        "autor": "J. R. R. Tolkien",
+        "ano": 1954
+      },
+      {
+        "id": 3,
+        "titulo": "Senhor dos Aneis: Retorno do rei",
+        "autor": "J. R. R. Tolkien",
+        "ano": 1955
+      }
+    ]
+  }
+  

@@ -1,0 +1,13 @@
+.botao {
+    width: 167px;
+    height: 80px;
+    left: 255px;
+    top: 1313px;
+    background: #6278F7;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    color: #03025c;
+}

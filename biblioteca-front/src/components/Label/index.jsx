@@ -9,7 +9,7 @@ const Label = (props) => {
 
     return (
         <div className="label">
-            <input onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder}/>
+            <input onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder} value={props.valor}/>
         </div>
     )
 }

@@ -1,0 +1,9 @@
+.cabecalho {
+    text-align: center;
+    background-color: #0CC0DF;
+}
+
+.cabecalho img {
+    width: 600px;
+    height: 150px;
+}

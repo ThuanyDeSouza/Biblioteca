@@ -1,48 +1,52 @@
 .cadastroLivros {
-    background-color: #4ebba9;
-    position: relative;
-    text-align: center;
+    height: 619px;
+    background-color: #A3EAF6;
+}
+
+.cadastroLivros .cabecalho {
+    padding-top: 0px;
+}
+
+.cadastroLivros .contorno {
+    background-color: #F7F7F7;
+    height: 420px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 450px;
+    align-items: center;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.formulario {
+    margin-left: 30px;
 }
 
 .formulario form h1 {
     width: 806px;
     height: 43px;
-    left: 255px;
-    top: 669px;
     font-family: 'Prata';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 200;
+    font-size: 20px;
     line-height: 43px;
-    display: flex;
     color: #212121;
 }
 
 .formulario form h5 {
     width: 109px;
     height: 22px;
-    left: 255px;
-    top: 756px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
-    display: flex;
-    align-items: center;
     color: #212121;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.formulario div {
-    padding-top: 25px;
-}
-
-.formulario form button {
-    margin-top: 0px;
-}
-
-.formulario form .buttons {
-    display: flex;
-    flex-direction: column;
-    margin-left: 540px;
+#buttons {
+    margin-top: 15px;
+    margin-left: 125px;
 }

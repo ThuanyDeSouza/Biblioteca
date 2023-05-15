@@ -6,7 +6,20 @@ function Cards() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    setItems(data.items);
+    fetch("http://localhost:8080/books/").then(response => response.json())
+    .then(data => {
+      const items = []
+      data.map(i => {
+        items.push({
+            "id": i.livcodigo,
+            "titulo": i.livtitulo,
+            "autor": i.livautor,
+            "ano": i.livano
+        })
+        setItems(items)
+      })
+    });
+    //setItems(data.items);
   }, []);
 
   return (

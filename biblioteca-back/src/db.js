@@ -1,4 +1,4 @@
-import mysql from 'mysql'
+import mysql from 'mysql2'
 
 const ConnectDatabase = async () =>  {
     try {
@@ -10,7 +10,7 @@ const ConnectDatabase = async () =>  {
             host: 'localhost',
             user: 'root',
             password: '',
-            database: 'biblioteca'
+            database: 'Biblioteca'
         });
 
         console.log('Conectou no MySQL!');
